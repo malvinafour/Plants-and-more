@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flourish & Fern - Plant Sale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffebef;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #2f5d50;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            padding: 20px;
+        }
+        .intro h1 {
+            color: #2f5d50;
+        }
+        .plants {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .plant-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            width: 250px;
+        }
+        .plant-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .plant-card h2 {
+            color: #2f5d50;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ffebef;
+        }
+        .contact a {
+            color: #2f5d50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>Flourish & Fern - Beautiful Plants for Your Space</header>
+
+<div class="container">
+
+    <div class="intro">
+        <h1>Welcome to Flourish & Fern</h1>
+        <p>We bring you hand-picked, beautiful plants to brighten your home or garden. Find the perfect greenery to flourish in your space.</p>
+    </div>
+
+    <div class="plants">
+        <div class="plant-card">
+            <img src="https://via.placeholder.com/250" alt="Monstera">
+            <h2>Monstera Deliciosa</h2>
+            <p>$25 - A stunning tropical plant with iconic split leaves.</p>
+        </div>
+        <div class="plant-card">
+            <img src="https://via.placeholder.com/250" alt="Succulent">
+            <h2>Succulent Collection</h2>
+            <p>$15 - A mix of vibrant, low-maintenance succulents.</p>
+        </div>
+        <div class="plant-card">
+            <img src="https://via.placeholder.com/250" alt="Snake Plant">
+            <h2>Snake Plant</h2>
+            <p>$20 - Air-purifying and easy to care for.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="contact">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:info@flourishandfern.com">info@flourishandfern.com</a></p>
+    <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+</div>
+
+</body>
+</html>
